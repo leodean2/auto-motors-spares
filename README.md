@@ -1,8 +1,8 @@
-#AutoPartsPro - Full Stack E-Commerce Platform for Auto Motor Spares
-##Overview
+# AutoPartsPro - Full Stack E-Commerce Platform for Auto Motor Spares
+## Overview
 AutoPartsPro is a comprehensive e-commerce solution designed specifically for auto motor spares businesses. This full-stack application provides a modern platform for selling automotive parts online, with features for inventory management, customer orders, and administrative controls.
 
-###Features
+### Features
 Customer Facing
 - Product Catalog: Browse auto parts by category, make, model, and year
 
@@ -14,7 +14,7 @@ Customer Facing
 
 - Customer Accounts: Order history, saved vehicles, and wishlists
 
-### Administrative
+## Administrative
 Inventory Management: Add/update/delete parts with bulk import/export
 
 Order Management: Process orders, update statuses, generate invoices
@@ -23,95 +23,102 @@ Customer Management: View customer profiles and order history
 
 Reporting: Sales analytics and inventory reports
 
-Technology Stack
-Frontend
-React.js with TypeScript
+##Technology Stack
+##Frontend
+- React.js with TypeScript
 
-Redux for state management
+- Redux for state management
 
-Tailwind CSS for responsive design
+- Tailwind CSS for responsive design
 
-Stripe integration for payments
+- Stripe integration for payments
 
-Vite build tool
+- Vite build tool
 
-Backend
-Node.js with Express
+##Backend
+- Node.js with Express
 
-MongoDB with Mongoose ORM
+- MongoDB with Mongoose ORM
 
-JWT authentication
+- JWT authentication
 
-Redis for caching
+- Redis for caching
 
-RESTful API architecture
+- RESTful API architecture
 
-DevOps
-Docker containerization
+## DevOps
+- Docker containerization
 
-CI/CD pipeline with GitHub Actions
+- CI/CD pipeline with GitHub Actions
 
-AWS EC2 deployment
+- AWS EC2 deployment
 
-Nginx reverse proxy
+- Nginx reverse proxy
 
-Installation
+## Installation
 Prerequisites
-Node.js 18+
+- Node.js 18+
 
-MongoDB 6+
+- MongoDB 6+
 
-Redis 7+
+- Redis 7+
 
-npm 9+
+- npm 9+
 
 Setup Instructions
 Clone the repository
 
-bash
+```bash
 git clone https://github.com/yourusername/AutoPartsPro.git
 cd AutoPartsPro
+```
 Install dependencies
-
+```
 bash
 # Frontend
 cd frontend && npm install
 
 # Backend
 cd ../backend && npm install
-Environment Configuration
+```
+- Environment Configuration
 Create .env files in both frontend and backend directories based on the provided .env.example files.
 
-Database Setup
-
+- Database Setup
+```
 bash
 mongod --dbpath=/path/to/data/directory
-Run the application
-
+```
+- Run the application
+```
 bash
 # In backend directory
 npm run dev
 
 # In frontend directory (new terminal)
 npm run dev
-Deployment
+```
+- Deployment
 Docker Deployment
-bash
+```bash
 docker-compose up --build
+```
 Manual Deployment
 Build production bundles:
-
+```
 bash
 # Frontend
 cd frontend && npm run build
 
 # Backend
 cd ../backend && npm run build
+```
 Start production server:
-
+```
 bash
 node backend/dist/server.js
-API Documentation
+```
+### API Documentation
 The backend API is documented with Swagger. After starting the development server, access the documentation at:
 
 text
@@ -119,7 +126,7 @@ http://localhost:5000/api-docs
 Contributing
 Contributions are welcome! Please follow these steps:
 
-Fork the repository
+### Fork the repository
 
 Create your feature branch (git checkout -b feature/AmazingFeature)
 
