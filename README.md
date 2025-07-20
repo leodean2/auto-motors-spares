@@ -23,8 +23,8 @@ Customer Management: View customer profiles and order history
 
 Reporting: Sales analytics and inventory reports
 
-##Technology Stack
-##Frontend
+## Technology Stack
+## Frontend
 - React.js with TypeScript
 
 - Redux for state management
