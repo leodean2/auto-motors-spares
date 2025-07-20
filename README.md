@@ -35,7 +35,7 @@ Reporting: Sales analytics and inventory reports
 
 - Vite build tool
 
-##Backend
+## Backend
 - Node.js with Express
 
 - MongoDB with Mongoose ORM
